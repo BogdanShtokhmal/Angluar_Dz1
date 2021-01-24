@@ -7,5 +7,5 @@ import { cars } from 'src/data/data';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  cars = cars;
+
 }
