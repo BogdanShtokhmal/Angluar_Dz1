@@ -8,7 +8,6 @@ import {UserService} from './services/user.service';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 
-
 @NgModule({
   declarations: [UserComponent, UsersComponent],
   imports: [

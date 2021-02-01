@@ -12,6 +12,5 @@ export class UserService {
 
   getUser(): Observable <any[]>{
     return this.httpClient.get<any[]>('http://jsonplaceholder.typicode.com/users');
-
 }
 }
