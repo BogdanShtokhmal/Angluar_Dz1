@@ -15,6 +15,9 @@ import {RouterModule} from '@angular/router';
     RouterModule.forRoot([
       {
         path: 'users', loadChildren: () => import('./user/user.module').then(m => m.UserModule)
+      },
+      {
+        path: 'posts', loadChildren: () => import('./post/post.module').then(c => c.PostModule)
       }
 
     ])
